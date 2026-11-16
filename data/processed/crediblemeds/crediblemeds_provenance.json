@@ -1,0 +1,29 @@
+{
+  "source": "CredibleMeds QTdrugs lists (QT_drug_lists.xlsx)",
+  "source_md5": "bc05dacc4f6d8c729a5fdee153560cd2",
+  "sheets": [
+    "Sheet1",
+    "Sheet2"
+  ],
+  "name_column": "Generic Name",
+  "n_rows_raw": 300,
+  "n_unique_names": 282,
+  "n_resolved_key14": 270,
+  "n_unresolved": 5,
+  "unresolved_names": [
+    "necitumumab",
+    "nusinersen",
+    "tebentafusp",
+    "hydrocodone - er",
+    "inotuzumab ozogamicin"
+  ],
+  "tier_counts": {
+    "Possible": 152,
+    "Known": 67,
+    "Conditional": 51
+  },
+  "overlap_clinical": 143,
+  "resolver": "local clinical-pool name match, then PubChem PUG-REST name lookup",
+  "salt_stripping": "common salt/hydrate suffixes removed before lookup",
+  "processed_date": "2026-11-12"
+}

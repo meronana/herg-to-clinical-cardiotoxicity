@@ -1,0 +1,28 @@
+{
+  "dataset": "hERG_Karim (TDC single_pred.Tox)",
+  "pytdc_version": "1.1.15",
+  "download_date": "2026-11-12",
+  "raw_file": "herg_karim.tab",
+  "raw_md5": "cf699546d80721c9a160f4a6ac9b368b",
+  "n_raw": 13445,
+  "n_rdkit_ok": 13445,
+  "n_label_conflict_keys": 83,
+  "n_final": 11037,
+  "n_duplicate_rows_removed": 2408,
+  "label_counts_final": {
+    "0": 5610,
+    "1": 5427
+  },
+  "split": {
+    "source": "TDC get_split() 기본값 (random, seed 42, frac [0.7, 0.1, 0.2])",
+    "policy": "InChIKey14 기준 재배정, 우선순위 test > valid > train",
+    "n": {
+      "train": 7309,
+      "valid": 1182,
+      "test": 2546
+    },
+    "n_unassigned": 0,
+    "tdc_cross_split_contamination": 1049
+  },
+  "dedup": "InChIKey14 기준, 라벨 충돌 key 제거 후 첫 등장 유지"
+}

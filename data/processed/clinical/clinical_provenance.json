@@ -1,0 +1,39 @@
+{
+  "dataset": "Cardiotox (with SIDER inactives) - DICTrank + SIDER inactives",
+  "source_files": [
+    "Cardiotox (with SIDER inactives)_train.csv.gz",
+    "Cardiotox (with SIDER inactives)_test.csv.gz"
+  ],
+  "source_md5": {
+    "train": "d3abcee7fab138a4c0f18ccae04ad82e",
+    "test": "da78e48d421e7ed6034390b567d2005b"
+  },
+  "n_raw": 1253,
+  "n_parsed": 1225,
+  "n_label_conflict_keys": 0,
+  "n_collapsed_groups": 0,
+  "n_pool": 1225,
+  "n_pos": 725,
+  "n_neg": 500,
+  "n_scaffold": 836,
+  "dedup_key": "InChIKey skeleton block (first 14 characters)",
+  "dedup_policy": "drop label-conflicting keys, keep first of remaining duplicates",
+  "endpoint_definition": "A = cardiotoxic AND listed in CredibleMeds; B = cardiotoxic AND not listed; negatives = non-cardiotoxic",
+  "n_listed": 143,
+  "n_listed_toxic": 133,
+  "n_listed_nontoxic": 10,
+  "overlap_with_herg_karim": {
+    "n_shared": 209,
+    "concordant": 97,
+    "concordance_rate": 0.4641,
+    "herg_neg_clin_pos": 98,
+    "herg_pos_clin_neg": 14,
+    "crosstab": {
+      "(0, 1)": 98,
+      "(1, 1)": 75,
+      "(0, 0)": 22,
+      "(1, 0)": 14
+    }
+  },
+  "processed_date": "2026-11-13"
+}

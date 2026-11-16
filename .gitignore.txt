@@ -1,0 +1,9 @@
+# regenerable graph caches (>100 MB, exceed GitHub's file limit)
+data/graphs/*.pt
+03_dedup/graphs_*.pt
+
+# notebook / python cruft
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc

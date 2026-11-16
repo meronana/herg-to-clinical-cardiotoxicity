@@ -1,0 +1,44 @@
+[
+  {
+    "file": "finetune_scratch_seed42.pt",
+    "arm": "scratch",
+    "seed": 42,
+    "val_threshold": 0.33,
+    "val_auroc": 0.6518
+  },
+  {
+    "file": "finetune_scratch_seed43.pt",
+    "arm": "scratch",
+    "seed": 43,
+    "val_threshold": 0.33,
+    "val_auroc": 0.6452
+  },
+  {
+    "file": "finetune_scratch_seed44.pt",
+    "arm": "scratch",
+    "seed": 44,
+    "val_threshold": 0.43,
+    "val_auroc": 0.7362
+  },
+  {
+    "file": "finetune_transfer_seed42.pt",
+    "arm": "transfer",
+    "seed": 42,
+    "val_threshold": 0.39,
+    "val_auroc": 0.7164
+  },
+  {
+    "file": "finetune_transfer_seed43.pt",
+    "arm": "transfer",
+    "seed": 43,
+    "val_threshold": 0.23,
+    "val_auroc": 0.6537
+  },
+  {
+    "file": "finetune_transfer_seed44.pt",
+    "arm": "transfer",
+    "seed": 44,
+    "val_threshold": 0.45,
+    "val_auroc": 0.749
+  }
+]

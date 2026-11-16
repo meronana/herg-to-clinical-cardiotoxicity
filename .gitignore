@@ -1,0 +1,6 @@
+﻿data/graphs/*.pt
+03_dedup/graphs_*.pt
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc

@@ -1,0 +1,5 @@
+﻿Endpoints,N_pos,N_neg,N_total,Pos_rate
+Broad (all cardiotoxic vs non-toxic),725,500,1225,0.592
+A (listed in CredibleMeds vs non-toxic),133,500,633,0.21
+B (not listed vs non-toxic),592,500,1092,0.542
+C (listed vs not listed),133,592,725,0.183
